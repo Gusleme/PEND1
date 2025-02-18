@@ -1,0 +1,67 @@
+1- 
+let nome = "Leme";
+let idade = 16;
+let cidade = "sorocaba"
+
+console.log("meu nome é " + nome + " tenho " + idade + " anos e moro em " + cidade + ".")
+
+2-
+var 2nome; (invalido) forma correta = var nome2;
+var _idade; (valido)
+var cidade-natal; (invalido) forma correta = var cidadeNatal;
+var $preco; (invalido) forma correta = var preco;
+var let; (invalido) são duas variáveis
+
+3- a variável e classificada com indefinido por não ter nenhum valor atribuído 
+
+
+4-
+let altura;
+
+console.log("minha altura é " + altura + ".")
+
+altura = 170
+
+console.log("minha altura é " + altura + ".")
+
+5- ele funciona normalmente porem se e dado advertências ;
+
+6-
+let contador = 0;
+
+contador = contador + 1;
+
+contador = contador + 1;
+
+contador = contador + 1;
+
+console.log("valor igaul á " + contador + ".")
+
+7- Não e atribuído outro valor pois é uma constante q não muda; 
+
+8- o var funciona em todo o código já o let e apenas no bloco colocado e constante nunca muda o seu valor  
+let altura = 180;
+{
+    let peso = 70;
+    console.log(altura);
+    console.log(peso);
+}
+console.log(altura);
+console.log(peso);
+como no código acima que é divididos em bloco através das chaves em que o peso só tem valor dentro da chave diferente da altura que tem valor no código inteiro;
+
+9- ele mostrara todos os valores menos o ultimo pois o B foi uma variável criada dentro do if;
+
+10- var mensagem;
+
+function exibirMensagem() {
+    let lidas = "ok"
+    console.log("function");
+    console.log(mensagem);
+    console.log(lidas);
+}
+
+exibirMensagem();
+
+console.log("main program");
+console.log(mensagem);
